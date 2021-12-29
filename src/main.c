@@ -8,6 +8,13 @@
 
 #include "headers/httph.h"
 
+#define PORT 80
+
+#define DIR "/var/www/html"
+#define LOGFILE ""
+
+int logfd;
+
 void handle(int fd) {
     
 }
